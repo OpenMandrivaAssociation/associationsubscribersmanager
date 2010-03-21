@@ -1,7 +1,7 @@
 %define name	 associationsubscribersmanager
 %define oname    AssociationSubscribersManager 
 %define version	 3.1
-%define release	 %mkrel 1
+%define release	 %mkrel 2
 %define Summary	 Software which allow people to easily manage their clubs
 
 
@@ -12,7 +12,7 @@ Release:	%release
 Source0:	%oname-%version.tar.gz
 License:	GPLv2
 Group:		Graphical desktop/KDE
-URL:		http://kde-apps.org/content/show.php/kcm+tablet?content=114856
+URL:	    http://www.associationsubscribersmanager.org/
 BuildRequires:	qt4-devel
 
 %description
