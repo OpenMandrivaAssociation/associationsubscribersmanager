@@ -1,7 +1,7 @@
 %define name	 associationsubscribersmanager
 %define oname    AssociationSubscribersManager 
 %define version	 3.1
-%define release	 %mkrel 3
+%define release	 %mkrel 4
 %define Summary	 Software which allow people to easily manage their clubs
 
 
@@ -51,12 +51,12 @@ Devel files needed to build apps based on %name
 
 %build
 lrelease association_subscribers_manager.pro
-%qmake_qt4 INSTALLDIR=%buildroot%_prefix
+%qmake_qt4 INSTALLDIR=%_prefix
 %make
 
 %install
 %__rm -rf %buildroot
-%makeinstall_std
+%make INSTALL_ROOT=%buildroot install
 
 %clean
 %__rm -rf %buildroot
