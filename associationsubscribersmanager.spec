@@ -1,7 +1,7 @@
 %define name	 associationsubscribersmanager
 %define oname    AssociationSubscribersManager 
 %define version	 3.1
-%define release	 %mkrel 2
+%define release	 %mkrel 3
 %define Summary	 Software which allow people to easily manage their clubs
 
 
@@ -38,6 +38,7 @@ Group: Development/KDE and Qt
 Summary: Devel files needed to build apps based on %name
 
 %description devel
+Devel files needed to build apps based on %name
 
 %files devel
 %defattr(-,root,root,-)
