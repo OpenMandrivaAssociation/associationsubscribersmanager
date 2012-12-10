@@ -60,3 +60,25 @@ lrelease association_subscribers_manager.pro
 
 %clean
 %__rm -rf %buildroot
+
+
+%changelog
+* Sun Dec 05 2010 Oden Eriksson <oeriksson@mandriva.com> 3.2.0-2mdv2011.0
++ Revision: 609996
+- rebuild
+
+* Sun Apr 11 2010 Nicolas Lécureuil <nlecureuil@mandriva.com> 3.2.0-1mdv2010.1
++ Revision: 533604
+- New version 3.2.0
+
+* Sun Mar 21 2010 Nicolas Lécureuil <nlecureuil@mandriva.com> 3.1-4mdv2010.1
++ Revision: 526283
+- Fix path
+
+* Sun Mar 21 2010 Nicolas Lécureuil <nlecureuil@mandriva.com> 3.1-3mdv2010.1
++ Revision: 526264
+- Add forgotten description tag
+- Fix URL
+- import associationsubscribersmanager
+
+
