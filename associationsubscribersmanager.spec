@@ -1,7 +1,7 @@
 %define name	 associationsubscribersmanager
 %define oname    AssociationSubscribersManager 
 %define version	 3.2.0
-%define release	 %mkrel 2
+%define release	 3
 %define Summary	 Software which allow people to easily manage their clubs
 
 
