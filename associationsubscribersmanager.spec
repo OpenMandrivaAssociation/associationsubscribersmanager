@@ -13,6 +13,7 @@ Source0:	%oname-%version.tar.gz
 License:	GPLv2
 Group:		Graphical desktop/KDE
 URL:	    https://www.associationsubscribersmanager.org/
+BuildRequires:	make
 BuildRequires:	qt4-devel
 
 %description
